@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>My first webpage</title>
+    <link rel="stylesheet" href="mystylesheet.css" />
+    <style>
+      h2 {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+          sans-serif;
+      }
+
+      img {
+        border: 1px solid black;
+        border-radius: 3px;
+        box-shadow: 5px 10px 10px #888888;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 style="color: red; font-family: Arial, Helvetica, sans-serif">
+        My name is Jacob
+      </h1>
+    </header>
+    <nav id="navbar">
+      <a href="./html/contactMe.html">Contact Me</a>
+      <a href="./html/flexbox.html">Flexbox Example</a>
+      <a href="./html/grid_sample.html">Grid Example</a>
+      <a href="./html/expandleDiv.html">Expandable Div</a>
+    </nav>
+    <div class="grid-information content">
+      <div class="grid-aboutMe">
+        <p>And I am a cat person</p>
+
+        <p>This is the first paragraph</p>
+        <p class="greentext">
+          This is another paragraph, which is green and using a different font
+        </p>
+
+        <h2>About me</h2>
+        <div class="hobbies">
+          <p>My hobbies</p>
+          <ul>
+            <li>Coding</li>
+            <li>Learning</li>
+            <li>Spending time with my cat</li>
+          </ul>
+        </div>
+
+        <h3>Top 5 facts about my cat</h3>
+        <ol>
+          <li>They are very fluffy</li>
+          <li>They like cheese</li>
+          <li>They sleep a lot</li>
+          <li>Their paws are very cute</li>
+          <li>They like head scratches</li>
+        </ol>
+      </div>
+
+      <table>
+        <caption>
+          Types of Dogs
+        </caption>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Breed</th>
+        </tr>
+        <tr>
+          <td>Loxie</td>
+          <td>1</td>
+          <td>Poodle</td>
+        </tr>
+        <tr>
+          <td>Pippa</td>
+          <td>8</td>
+          <td>Yorkshire Terrier</td>
+        </tr>
+      </table>
+
+      <img
+        src="./images/dogs.jpeg"
+        alt="Pictures of two dressed up dogs"
+        title="Pictures of two dressed up dogs"
+        height="500px"
+        width="700px"
+      />
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+  </body>
+</html>
+<script src="./scritps/scripts.js"></script>
